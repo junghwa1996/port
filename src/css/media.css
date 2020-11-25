@@ -358,6 +358,9 @@ header > div > nav > ul li{
         width: 100%;
     }
 
+    #contact > div > .contact-wrap{
+        flex-wrap: wrap;
+    }
 
     
 }

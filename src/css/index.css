@@ -86,15 +86,25 @@ header > div > nav > ul li a:hover{
     width: 100%;
     padding-bottom: 40px;
 }
+#about > div > .about-content > .about-mbti > div{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#about > div > .about-content > .about-mbti > div > img{
+    width: 100%;
+}
 
 #about > div > .about-content > .about-mbti > ul{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 #about > div > .about-content > .about-mbti > ul li{
-    margin: 0 15px;
+    margin: 7px 15px;
 }
 
 #about > div > .about-content > .about-mbti > ul li mark{
@@ -119,6 +129,7 @@ header > div > nav > ul li a:hover{
 #skill > div > .skill-img ul{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
