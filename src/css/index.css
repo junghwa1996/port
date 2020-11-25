@@ -1,0 +1,478 @@
+/* title */
+
+
+
+#title > div > h1{
+    line-height: 50px;
+    position: relative;
+}
+
+#title > div > h1::before{
+    position: absolute;
+    top: 13px;
+    left: -15px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #00a0e9;
+    border-radius: 50%;
+}
+
+/* header - gnb */
+
+header{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+header > div > nav > ul{
+    display: flex;
+    justify-content: center;
+}
+
+header > div > nav > ul li{
+    margin: 15px 20px;
+    cursor: pointer;
+}
+
+header > div > nav > ul li a.on,
+header > div > nav > ul li a:hover{
+    color: #00a0e9;
+}
+
+/* about */
+
+#about{
+    background-image: url("../img/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#about > div > .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#about > div > .about-content > .profile-img{
+    width: 40%;
+    overflow: hidden;
+}
+
+#about > div > .about-content > .profile-img > img{
+    width: 480px;
+}
+
+/* about - profile*/
+
+#about > div > .about-content > .profile-txt{
+    padding: 2% 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    box-sizing: border-box;
+}
+
+#about > div > .about-content > .profile-txt > dl dt{
+    line-height: 50px;
+}
+
+/* about - mbti*/
+
+#about > div > .about-content > .about-mbti{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#about > div > .about-content > .about-mbti > ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#about > div > .about-content > .about-mbti > ul li{
+    margin: 0 15px;
+}
+
+#about > div > .about-content > .about-mbti > ul li mark{
+    padding: 0 10px 2px 10px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+#about > div > .about-content > .about-mbti > ul li:nth-child(1) mark{background-color: #32b16c;}
+#about > div > .about-content > .about-mbti > ul li:nth-child(2) mark{background-color: #00a0e9;}
+#about > div > .about-content > .about-mbti > ul li:nth-child(3) mark{background-color: #eb6877;}
+#about > div > .about-content > .about-mbti > ul li:nth-child(4) mark{background-color: #e60012;}
+#about > div > .about-content > .about-mbti > ul li:nth-child(5) mark{background-color: #7e6b5a;}
+#about > div > .about-content > .about-mbti > ul li:nth-child(6) mark{background-color: #f39800;}
+
+#about > div > .about-content > .about-mbti > a:hover{
+    text-decoration: underline;
+}
+
+/* skill */
+
+#skill > div > .skill-img ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#skill > div > .skill-img ul li{
+    margin: 0 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    transition: .3s all;
+}
+
+#skill > div > .skill-img ul li:hover,
+#skill > div > .skill-img ul li.on{
+    transform: translateY(-15px);
+    transition: .3s all;
+}
+
+
+#skill > div > .skill-img ul li > div > img{
+    width: 100%;
+}
+
+#skill > div > .skill-img ul li > div > p{
+    text-align: center;
+    line-height: 50px;
+}
+
+#skill > div > .skill-img ul li:nth-child(1) > div > p{color: #eb592f;}
+#skill > div > .skill-img ul li:nth-child(2) > div > p{color: #1378be;}
+#skill > div > .skill-img ul li:nth-child(3) > div > p{color: #f5af33;}
+#skill > div > .skill-img ul li:nth-child(4) > div > p{color: #111b28;}
+#skill > div > .skill-img ul li:nth-child(5) > div > p{color: #cd679a;}
+#skill > div > .skill-img ul li:nth-child(6) > div > p{color: #38ceff;}
+#skill > div > .skill-img ul li:nth-child(7) > div > p{color: #ff7e1b;}
+#skill > div > .skill-img ul li:nth-child(8) > div > p{color: #ff2dc7;}
+
+#skill > div > .skill-txt{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#skill > div > .skill-txt ul li{
+    border-radius: 10px;
+    display: none;
+}
+
+#skill > div > .skill-txt ul li.on{
+    display: block;
+}
+
+#skill > div > .skill-txt ul li dl{
+    padding: 15px 30px;
+}
+
+/* portfolio */
+
+#portfolio > div > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#portfolio > div > ul > li{
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 460px;
+}
+
+#portfolio > div > ul > li .portfolio-bg{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+#portfolio > div > ul > li .portfolio-bg > img{
+    width: 100%;
+}
+
+#portfolio > div > ul > li:hover .portfolio-bg > img{
+    transform: scale(1.1);
+    transition:  .5s all;
+}
+
+
+#portfolio > div > ul > li:hover .portfolio-bg .op-box-big{
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    transition:  .3s all;
+}
+
+#portfolio > div > ul > li .portfolio-bg .op-box-small > p{
+    color: #fff;
+}
+
+
+#portfolio > div > ul > li:hover .portfolio-bg .op-box-small{
+    position: absolute;
+    left: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%; height: 35px;
+    padding: 15px 0 0 20px;
+    transition:  .5s all;
+}
+
+#portfolio > div > .downlode{
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* popup */
+
+.popup{
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%; height: 100%;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s all;
+}
+
+.popup.on{
+    opacity: 1;
+    transition: .5s all;
+    visibility: visible;
+}
+
+.popup > div{
+    display: none;
+    width: 100%;
+}
+
+.popup > div.on{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    max-width: 1120px;
+}
+
+.popup > div > div{
+    position: relative;
+}
+
+.popup > div > div > button{
+    position: absolute;
+    top: 10px; right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.popup > div > div > .popup-ctn{
+    display: flex;
+    flex-wrap: no-wrap;
+    padding: 0 15px;
+}
+
+
+.popup > div > div > .popup-ctn > .popup-title-img{
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+    background: url("../img/popup-bg.png");
+    /* width: 50%; */
+}
+
+.popup > div > div > .popup-ctn > .popup-title-img > img{
+    width: 100%;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt{
+    background-color: #bbbbbb;
+    border-radius: 0 10px 10px 0;
+    padding: 30px 50px;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt > h3,
+.popup > div > div > .popup-ctn > .popup-txt > dl{
+    margin-bottom: 30px;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt > dl dt{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt > dl dt:after{
+    content: '';
+    width: 1px;
+    height: 15px;
+    background-color: #727272;
+    position: absolute;
+    right: -10px; top: 6px;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt p{
+    margin-bottom: 20px;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt > mark{
+    background-color: #00a0e9;
+    color: #fff;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt > button{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #00a0e9;
+    cursor: pointer;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt > button:hover{
+    border: 1px solid #000;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt > button > a{
+    color: #00a0e9;
+    font-weight: bold;
+}
+
+.popup > div > div > .popup-ctn > .popup-txt > button:hover > a{
+    color: #000;
+}
+
+
+
+/* contact */
+
+#contact > div > .contact-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+#contact > div > .contact-wrap .contact-img{
+    width: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#contact > div > .contact-wrap .contact-img > img{
+    width: 100%;
+}
+
+#contact > div > .contact-wrap .contact-ctn{
+    margin-left: 50px;
+    padding: 35px 0 0 0;
+}
+
+#contact > div > .contact-wrap .contact-ctn h3{
+    margin-bottom: 40px;
+    line-height: 45px;
+}
+
+#contact > div > .contact-wrap .contact-ctn .contact-txt{
+    margin-bottom: 20px;
+}
+
+#contact > div > .contact-wrap .contact-ctn .contact-information dl{
+    margin-bottom: 5px;
+}
+
+#contact > div > .contact-wrap .contact-ctn .contact-information dl dt{
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 8px;
+}
+
+#contact > div > .contact-wrap .contact-ctn .contact-information dl:nth-child(1) dt{
+    background-color: #32b16c;
+}
+
+#contact > div > .contact-wrap .contact-ctn .contact-information dl:nth-child(2) dt{
+    background-color: #00a0e9;
+}
+
+/* ---------애니메이션--------- */
+
+/* 
+@keyframes fade-in{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes fade-in-left{
+    0%{opacity: 0; transform: translateX(-50px);}
+    100%{opacity: 1; transform: translateX(0px);}
+}
+
+@keyframes fade-in-top{
+    0%{opacity: 0; transform: translateY(-50px);}
+    100%{opacity: 1; transform: translateY(0px);}
+}
+
+@keyframes fade-in-bottom{
+    0%{opacity: 0; transform: translateY(50px);}
+    100%{opacity: 1; transform: translateY(0px);}
+}
+@keyframes fade-in-right{
+    0%{opacity: 0; transform: translateX(50px);}
+    100%{opacity: 1; transform: translateX(0px);}
+}
+
+
+
+.animate{
+animation: fade-in 1s forwards ease-in;
+transition: 2s ease-in-out;
+}
+.animate_left{
+animation: fade-in-left .3s forwards ease-in;
+transition: 1s ease-in-out;
+}
+.animate_top{
+animation: fade-in-top .5s forwards ease-in;
+transition: .5s ease-in;
+}
+.animate_bottom{
+    animation: fade-in-bottom .3s forwards ease-in;
+    transition: .1s ease-in;
+}
+.animate_right{
+animation: fade-in-right .5s forwards ease-in;
+transition: .5s ease-in;
+}
+
+.deley3{animation-delay: .3s;}
+.deley5{animation-delay: .5s;}
+.deley8{animation-delay: .8s;}
+.deley10{animation-delay: 1s;}
+.deley12{animation-delay: 1.2s;}
+
+
+.reset{opacity: 0;} */
+
+
+
+
+
+

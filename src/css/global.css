@@ -1,0 +1,135 @@
+.wrap{
+    max-width: 1120px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* --------------------공통 속성----------- */
+
+#about > div > h2,
+#about > div > .about-content .about-mbti,
+#skill > div > h2,
+#portfolio > div > h2,
+#contact > div > h2,
+footer p{
+    text-align: center;
+}
+
+/* ----------------공통 패딩,마진----------- */
+
+#title,
+#about > div > h2,
+#about > div > .about-content .about-mbti > h3,
+#skill > div > h2,
+#portfolio > div > h2,
+#contact > div > h2,
+footer p{
+    padding: 50px 0;
+}
+
+#about,
+#skill,
+#portfolio,
+#contact{
+    padding-bottom: 50px;
+}
+
+
+/* -------공통 폰트 사이즈 & 굵기--------- */
+
+#about > div > h2,
+#about > div > .about-content .about-mbti > h3,
+#skill > div > h2,
+#portfolio > div > h2,
+#contact > div > h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+#title > div,
+#contact > div > .contact-wrap > .contact-ctn > p,
+#contact > div > .contact-wrap > .contact-ctn > h3,
+.popup > div > div > .popup-ctn > .popup-txt > h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+header > div > nav > ul > li > a,
+#about > div > .about-content .profile-txt dl dt,
+#skill > div > .skill-img > ul li > div > p,
+#skill > div > .skill-txt > ul li > dl dt,
+#contact > div > .contact-wrap > .contact-ctn > .contact-txt dl dt,
+.popup > div > div > .popup-ctn > .popup-txt > h3 > span{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+#portfolio > div > ul li > .portfolio-bg > .op-box-small > p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#title > div > p:last-child,
+#about > div > .about-content .profile-txt dl dd,
+#about > div > .about-content .about-mbti > h3 > p,
+#about > div > .about-content .about-mbti > a,
+#skill > div > .skill-txt > ul li > dl dd,
+#contact > div > .contact-wrap > .contact-ctn > .contact-txt dl dd,
+#contact > div > .contact-wrap > .contact-ctn > .contact-information dl dd,
+.popup > div > div > .popup-ctn > .popup-txt > p,
+.popup > div > div > .popup-ctn > .popup-txt > dl{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+
+#about > div > .about-content .about-mbti > ul li > mark,
+#contact > div > .contact-wrap > .contact-ctn > .contact-information dl dt,
+.popup > div > div > .popup-ctn > .popup-txt > mark,
+.popup > div > div > .popup-ctn > .popup-txt > button a,
+footer p{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* -------------공통 컬러----------------- */
+
+#about > div > h2 > span,
+#about > div > .about-content .about-mbti > h3 > span,
+#skill > div > h2 > span,
+#portfolio > div > h2 > span,
+#contact > div > h2 > span{
+    color: #00a0e9;
+}
+
+
+#title > div > h1 > span,
+#contact > div > .contact-wrap > .contact-ctn > h3 > span,
+.popup > div > div > .popup-ctn > .popup-txt > dl{
+    color: #727272;
+}
+
+header,
+#skill > div > .skill-txt ul li,
+#portfolio > div > ul li{
+    background-color: #f7f7f7;
+    
+}
+
+header,
+#about > div > .about-content > .profile-txt,
+#skill > div > .skill-txt ul li,
+#portfolio > div > ul li{
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio,
+footer{
+    background-color: #eeeeee;
+}
+
