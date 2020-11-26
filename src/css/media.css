@@ -611,7 +611,7 @@ header > div > nav > ul li{
 
     .popup > div > div > .popup-ctn > .popup-title-img{
         border-radius: 0;
-        /* width: 50%; */
+        width: 100%;
     }
 
     .popup > div > div > .popup-ctn > .popup-title-img > img{
