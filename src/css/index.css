@@ -79,6 +79,10 @@ header > div > nav > ul li a:hover{
     line-height: 50px;
 }
 
+.Mo-br-add{
+    display: none;
+}
+
 /* about - mbti*/
 
 #about > div > .about-content > .about-mbti{
