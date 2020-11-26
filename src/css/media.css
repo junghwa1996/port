@@ -659,10 +659,16 @@ header > div > nav > ul li{
         width: 100%;
     }
 
+    #portfolio > div > ul > li:hover .portfolio-bg .op-box-big,
+    #portfolio > div > ul > li:hover .portfolio-bg .op-box-small{
+        display: none;
+    }
+
 
     .mo-br{
         display: none;
     }
+
     /* contact */
 
 
