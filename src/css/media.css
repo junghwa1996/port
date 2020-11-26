@@ -594,17 +594,18 @@ header > div > nav > ul li{
 
 
     .popup > div > div > button{
-        top: 0.9766vw; right: 2.4414vw;
-        width: 4.8828vw;
-        height: 4.8828vw;
+        top: 1.9766vw; right: 4.4414vw;
+        width: 8.8828vw;
+        height: 8.8828vw;
         border-radius: 50%;
         box-shadow: 0 0.9766vw 1.9531vw 0px rgba(0, 0, 0, 0.1);
-        font-size: 2.4414vw;
+        font-size: 3.4414vw;
         color: rgba(0, 0, 0, 0.5);
     }
 
     .popup > div > div > .popup-ctn{
         padding: 0 1.4648vw;
+        flex-wrap: wrap;
     }
 
 
@@ -620,7 +621,7 @@ header > div > nav > ul li{
     .popup > div > div > .popup-ctn > .popup-txt{
         border-radius: 0 0.9766vw 0.9766vw 0;
         padding: 2.9297vw 4.8828vw;
-        width: 45%;
+        width: 100%;
     }
 
     .popup > div > div > .popup-ctn > .popup-txt > h3,
@@ -634,8 +635,8 @@ header > div > nav > ul li{
 
     .popup > div > div > .popup-ctn > .popup-txt > dl dt:after{
         width: 0.0977vw;
-        height: 1.4648vw;
-        right: -10px; top: 0.5859vw;
+        height: 2.5648vw;
+        right: -3px; top: 1.3859vw;
     }
 
     .popup > div > div > .popup-ctn > .popup-txt p{
