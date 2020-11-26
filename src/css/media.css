@@ -610,7 +610,7 @@ header > div > nav > ul li{
 
 
     .popup > div > div > .popup-ctn > .popup-title-img{
-        border-radius: 0.9766vw 0 0 0.9766vw;
+        border-radius: 0;
         /* width: 50%; */
     }
 
@@ -619,7 +619,7 @@ header > div > nav > ul li{
     }
 
     .popup > div > div > .popup-ctn > .popup-txt{
-        border-radius: 0 0.9766vw 0.9766vw 0;
+        border-radius: 0;
         padding: 2.9297vw 4.8828vw;
         width: 100%;
     }
@@ -644,8 +644,9 @@ header > div > nav > ul li{
     }
 
     .popup > div > div > .popup-ctn > .popup-txt > button{
-        margin: 0.9766vw 0;
-        padding: 0.9766vw 1.9531vw;
+        margin: 3vw auto 0 0;
+        padding: 2.9766vw 1.9531vw;
+        width: 100%;
     }
 
 
