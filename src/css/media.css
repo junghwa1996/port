@@ -379,7 +379,7 @@ header > div > nav > ul li{
     #portfolio > div > h2,
     #contact > div > h2,
     footer p{
-        padding: 4.8828vw 0;
+        padding: 9.8828vw 0;
     }
     
     #about,
@@ -397,7 +397,7 @@ header > div > nav > ul li{
     #skill > div > h2,
     #portfolio > div > h2,
     #contact > div > h2{
-        font-size: 4.8828vw;
+        font-size: 6.8828vw;
     }
     
     
@@ -434,7 +434,7 @@ header > div > nav > ul li{
     .popup > div > div > .popup-ctn > .popup-txt > p,
     .popup > div > div > .popup-ctn > .popup-txt > dl{
         font-size: 3.1672vw;
-        line-height: 3.5414vw;
+        line-height: 4.8414vw;
     }
     
     
@@ -481,9 +481,13 @@ header > div > nav > ul li{
 
     /* about - profile*/
 
+    #about > div > .about-content > .profile-txt{
+        padding: 6% 5%;
+    }
+
 
     #about > div > .about-content > .profile-txt > dl dt{
-        line-height: 4.8828vw;
+        line-height: 8.0828vw;
     }
 
     /* about - mbti*/
@@ -492,12 +496,18 @@ header > div > nav > ul li{
         padding-bottom: 3.9063vw;
     }
 
+    #about > div > .about-content > .about-mbti > div{
+        width: 80%;
+    }
+
     #about > div > .about-content > .about-mbti > ul{
         margin-bottom: 1.9531vw;
+        width: 60%;
+        margin: 3vw auto;
     }
 
     #about > div > .about-content > .about-mbti > ul li{
-        margin: 0 1.4648vw;
+        margin: 0.8648vw;
     }
 
     #about > div > .about-content > .about-mbti > ul li mark{
@@ -541,7 +551,7 @@ header > div > nav > ul li{
 
 
     #skill > div > .skill-txt ul li dl{
-        padding: 1.4648vw 2.9297vw;
+        padding: 3.4648vw 3.9297vw;
     }
 
     /* portfolio */
