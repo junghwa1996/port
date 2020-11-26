@@ -675,11 +675,25 @@ header > div > nav > ul li{
     }
 
     #contact > div > .contact-wrap .contact-ctn .contact-txt{
-        margin-bottom: 1.9531vw;
+        margin-bottom: 5.9531vw;
     }
 
+    #contact > div > .contact-wrap .contact-ctn .contact-information{
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    #contact > div > .contact-wrap .contact-ctn .contact-information dl{
+        display: flex;
+    
+    }
+    
     #contact > div > .contact-wrap .contact-ctn .contact-information dl dt{
         margin-right: 0.7813vw;
+    }
+
+    #contact > div > .contact-wrap .contact-ctn .contact-information dl dd{
+        text-align: left;
     }
 
     #contact > div > .contact-wrap .contact-ctn .contact-information dl dt mark{
