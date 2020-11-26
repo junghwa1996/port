@@ -433,8 +433,8 @@ header > div > nav > ul li{
     #contact > div > .contact-wrap > .contact-ctn > .contact-information dl dd,
     .popup > div > div > .popup-ctn > .popup-txt > p,
     .popup > div > div > .popup-ctn > .popup-txt > dl{
-        font-size: 1.3672vw;
-        line-height: 2.4414vw;
+        font-size: 3.1672vw;
+        line-height: 3.5414vw;
     }
     
     
@@ -507,15 +507,27 @@ header > div > nav > ul li{
 
 
     /* skill */
-
-
-    #skill > div > .skill-img ul li{
-        margin: 0 2.9297vw;
+    #skill > div > .skill-img ul{
+        width: 90%;
+        margin: 0 auto;
     }
 
+    #skill > div > .skill-img ul li{
+        margin: 2vw;
+        /* width: 15%; */
+    }
 
+    #skill > div > .skill-img ul li > div{
+        text-align: center;
+    }
+    
+    
     #skill > div > .skill-img ul li > div > p{
         line-height: 4.8828vw;
+    }
+
+    #skill > div > .skill-img ul li > div > img{
+        width: 70%;
     }
 
 
