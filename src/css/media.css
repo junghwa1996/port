@@ -443,7 +443,7 @@ header > div > nav > ul li{
     .popup > div > div > .popup-ctn > .popup-txt > mark,
     .popup > div > div > .popup-ctn > .popup-txt > button a,
     footer p{
-        font-size: 1.1719vw;
+        font-size: 2.4719vw;
     }
     
     /* -------------------------------------------------------------------------------------- */
@@ -490,6 +490,13 @@ header > div > nav > ul li{
         line-height: 8.0828vw;
     }
 
+    #about > div > .about-content > .profile-txt > dl:nth-child(2) dd{
+        margin-bottom: 3vw;
+    }
+
+    .Mo-br-add{
+        display: block;
+    }
     /* about - mbti*/
 
     #about > div > .about-content > .about-mbti{
@@ -648,15 +655,20 @@ header > div > nav > ul li{
 
 
     #contact > div > .contact-wrap .contact-img{
-        width: 43.9453vw;
+        width: 100%;
         border-radius: 0.9766vw;
     }
 
     #contact > div > .contact-wrap .contact-ctn{
-        margin-left: 4.8828vw;
+        margin-left: 0;
         padding: 3.4180vw 0 0 0;
+        text-align: center;
     }
 
+
+    #contact > div > .contact-wrap > .contact-ctn > p{
+        margin-bottom: 1vw;
+    }
     #contact > div > .contact-wrap .contact-ctn h3{
         margin-bottom: 3.9063vw;
         line-height: 4.3945vw;
