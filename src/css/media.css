@@ -293,7 +293,7 @@ header > div > nav > ul li{
 
 .popup > div > div > .popup-ctn > .popup-txt > button{
     margin: 0.9766vw 0;
-    padding: 0.9766vw 1.9531vw;
+    /* padding: 0.9766vw 1.9531vw; */
 }
 
 
@@ -655,7 +655,7 @@ header > div > nav > ul li{
 
     .popup > div > div > .popup-ctn > .popup-txt > button{
         margin: 3vw auto 0 0;
-        padding: 2.9766vw 1.9531vw;
+        /* padding: 2.9766vw 1.9531vw; */
         width: 100%;
     }
 
