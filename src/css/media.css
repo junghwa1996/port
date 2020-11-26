@@ -624,6 +624,10 @@ header > div > nav > ul li{
         width: 100%;
     }
 
+    .popup > div > div > .popup-ctn > .popup-txt > h3{
+        text-align: center;
+    }
+
     .popup > div > div > .popup-ctn > .popup-txt > h3,
     .popup > div > div > .popup-ctn > .popup-txt > dl{
         margin-bottom: 2.9297vw;
@@ -637,6 +641,12 @@ header > div > nav > ul li{
         width: 0.0977vw;
         height: 2.5648vw;
         right: -3px; top: 1.3859vw;
+    }
+    .popup > div > div > .popup-ctn > .popup-txt > dl dt:nth-child(3){
+        margin-left: 4vw;
+    }
+    .popup > div > div > .popup-ctn > .popup-txt > dl dd:nth-child(2){
+        float: left;
     }
 
     .popup > div > div > .popup-ctn > .popup-txt p{
