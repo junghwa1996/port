@@ -41,7 +41,7 @@
 
 
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (max-width: 1024px){
 
 
     .wrap{
@@ -344,6 +344,8 @@ header > div > nav > ul li{
 
 }
 
+
+
 @media (max-width: 767px){
 
     #about > div > .about-content{
@@ -365,106 +367,6 @@ header > div > nav > ul li{
 
     /* ---------------------------------------------------------------- */
 
-    .wrap{
-        max-width: 1120px;
-        padding: 0 2.6076vw;
-        margin: 0 auto;
-    }
-    
-    /* --------------------공통 속성----------- */
-
-    
-    /* ----------------공통 패딩,마진----------- */
-    
-    #title,
-    #about > div > h2,
-    #about > div > .about-content .about-mbti > h3,
-    #skill > div > h2,
-    #portfolio > div > h2,
-    #contact > div > h2,
-    footer p{
-        padding: 6.5189vw 0;
-    }
-    
-    #about,
-    #skill,
-    #portfolio,
-    #contact{
-        padding-bottom: 6.5189vw;
-    }
-    
-    
-    /* -------공통 폰트 사이즈 & 굵기--------- */
-    
-    #about > div > h2,
-    #about > div > .about-content .about-mbti > h3,
-    #skill > div > h2,
-    #portfolio > div > h2,
-    #contact > div > h2{
-        font-size: 6.5189vw;
-        font-weight: bold;
-    }
-    
-    
-    #title > div,
-    #contact > div > .contact-wrap > .contact-ctn > p,
-    #contact > div > .contact-wrap > .contact-ctn > h3,
-    .popup > div > div > .popup-ctn > .popup-txt > h3{
-        font-size: 3.9113vw;
-        font-weight: bold;
-    }
-    
-    
-    header > div > nav > ul > li > a,
-    #about > div > .about-content .profile-txt dl dt,
-    #skill > div > .skill-img > ul li > div > p,
-    #skill > div > .skill-txt > ul li > dl dt,
-    #contact > div > .contact-wrap > .contact-ctn > .contact-txt dl dt,
-    .popup > div > div > .popup-ctn > .popup-txt > h3 > span{
-        font-size: 2.6076vw;
-        font-weight: bold;
-        line-height: 3.9113vw;
-    }
-    
-    
-    #portfolio > div > ul li > .portfolio-bg > .op-box-small > p{
-        font-size: 17px;
-        font-weight: bold;
-    }
-    
-    #title > div > p:last-child,
-    #about > div > .about-content .profile-txt dl dd,
-    #about > div > .about-content .about-mbti > h3 > p,
-    #about > div > .about-content .about-mbti > a,
-    #skill > div > .skill-txt > ul li > dl dd,
-    #contact > div > .contact-wrap > .contact-ctn > .contact-txt dl dd,
-    #contact > div > .contact-wrap > .contact-ctn > .contact-information dl dd,
-    .popup > div > div > .popup-ctn > .popup-txt > p,
-    .popup > div > div > .popup-ctn > .popup-txt > dl{
-        font-size: 1.8253vw;
-        font-weight: normal;
-        line-height: 3.2595vw;
-    }
-    
-    
-    #about > div > .about-content .about-mbti > ul li > mark,
-    #contact > div > .contact-wrap > .contact-ctn > .contact-information dl dt,
-    .popup > div > div > .popup-ctn > .popup-txt > mark,
-    .popup > div > div > .popup-ctn > .popup-txt > button a,
-    footer p{
-        font-size: 1.5645vw;
-        font-weight: normal;
-    }
-    
-    /* ---------------------------------------------------------------- */
-    
-    #title{
-        margin-left: 15px;
-    }
-    
-    .Mo-br-add{
-        display: block;
-    }
     
 
     
