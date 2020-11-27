@@ -642,12 +642,6 @@ header > div > nav > ul li{
         height: 2.5648vw;
         right: -3px; top: 1.3859vw;
     }
-    .popup > div > div > .popup-ctn > .popup-txt > dl dt:nth-child(3){
-        margin-left: 4vw;
-    }
-    .popup > div > div > .popup-ctn > .popup-txt > dl dd:nth-child(2){
-        float: left;
-    }
 
     .popup > div > div > .popup-ctn > .popup-txt p{
         margin-bottom: 1.9531vw;
