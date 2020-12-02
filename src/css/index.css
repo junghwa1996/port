@@ -194,7 +194,8 @@ header > div > nav > ul li a:hover{
 #portfolio > div > ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* width: 86%; */
+    margin: 0 auto;
 }
 
 #portfolio > div > ul > li{
@@ -202,7 +203,7 @@ header > div > nav > ul li a:hover{
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
-    width: 460px;
+    width: 47.9%;
 }
 
 #portfolio > div > ul > li .portfolio-bg{
